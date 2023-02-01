@@ -1,0 +1,172 @@
+.crack__main__div {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f7f9fb;
+    /* background: #cae5ff; */
+
+    padding: 2rem 0;
+}
+
+.crack__main__div__container {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.crack__main__div__Educator_container {
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 1.5rem 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.educator__card {
+    width: 556px;
+    height: 180px !important;
+    /* border: 2px solid rgb(0, 255, 251); */
+    padding: 15px 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 16px; */
+    background: #FFFFFF;
+    border: 1px solid #E9EEF2;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.educator__card__image {
+    background: url("/images/bg.svg");
+    position: relative;
+}
+
+.educator__card__sktiker {
+    position: absolute;
+    /* width: 2rem; */
+    bottom: 0rem;
+    left: 0;
+    color: rgb(255, 166, 0);
+    padding: 0.2rem 0.5rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0 13px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.educator__card__info {
+    height: 180px;
+    width: auto;
+    /* border: 2px solid rgb(0, 255, 8); */
+    padding-left: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.educator__card__info span {
+    color: #3C4852;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.educator__card__info p {
+    color: #7A8B94;
+    min-height: 32px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.educator__View__Profile:hover .View__Profile__aro {
+    transform: translateX(5px);
+    transition: 0.6s;
+}
+
+@media (max-width:820px) {
+    .crack__main__div__container {
+        width: 95%;
+    }
+
+    .crack__main__div__Educator_container {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .educator__card {
+        min-width: 65%;
+    }
+    .freeTest__text__time{
+        flex-direction: column;
+    }
+}
+@media (max-width:620px) {
+    .crack__main__div__container {
+        width: 95%;
+    }
+
+    .crack__main__div__Educator_container {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .educator__card {
+        min-width: 100%;
+    }
+    .freeTest__text__time{
+        flex-direction: column;
+    }
+    .educator__card__info {
+       padding: 0;
+    
+    }
+.crack__main__div__Educator_container {
+    gap: 0.5rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+.freeTest__text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    color: #3C4852;
+}
+
+.freeTest__text p {
+    color: #3C4852;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+} */

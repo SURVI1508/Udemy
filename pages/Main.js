@@ -6,6 +6,7 @@ import FreeTest from './Components/FreeTest'
 import WatchFree from './Components/WatchFree'
 import MostEngaging from './Components/MostEngaging'
 import Classes from './Components/Classes'
+import TopEducator from './Components/TopEducator'
 
 const Main = () => {
     return (
@@ -17,7 +18,7 @@ const Main = () => {
             <WatchFree />
             <MostEngaging />
             <Classes />
-
+            <TopEducator />
         </div>
     )
 }
