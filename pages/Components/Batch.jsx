@@ -11,11 +11,11 @@ const Batch = () => {
             <div className={styles.crack__main__div}>
                 <div className={styles.crack__main__div__container}>
                     <div className={styles.freeTest__text}>
-                        <h3>Watch free online classes</h3>
+                        <h3>Recommended batch for IIT JEE preparation</h3>
                         <div className={styles.freeTest__text__time} class="d-flex gap-2 align-item-center">
-                            <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Chat live with educators</span>
-                            <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Attempt interactive polls</span>
-                            <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Get your doubts cleared</span>
+                            <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Best for full syllabus preparation</span>
+                            <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Live & recorded online classes</span>
+                            <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Curated by best educators</span>
                         </div>
                     </div>
                     <div className={styles.freeTest__image} >
@@ -72,7 +72,7 @@ const Batch = () => {
 
                         <div className={styles.crack__main__next__btn} class="d-flex gap-2">
                             <button>View batch detail</button>
-                            <span>Start in</span>
+                            {/* <span>Start in</span> */}
                         </div>
 
                     </div>

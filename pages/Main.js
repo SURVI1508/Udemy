@@ -10,6 +10,12 @@ import TopEducator from './Components/TopEducator'
 import Referal from './Components/Referal'
 import Subscription from './Components/Subscription'
 import Batch from './Components/Batch'
+import ExploreUpcoming from './Components/ExploreUpcoming'
+import ClassTour from './Components/ClassTour'
+import Center from './Components/Center'
+import AboutJEE from './Components/AboutJEE'
+import OnlinePrePeration from './Components/OnlinePrePeration'
+import Footer from './Components/Footer'
 
 const Main = () => {
     return (
@@ -25,6 +31,12 @@ const Main = () => {
             <Referal />
             <Subscription />
             <Batch />
+            <ExploreUpcoming />
+            <ClassTour />
+            <Center />
+            <AboutJEE />
+            <OnlinePrePeration />
+            <Footer />
 
         </div>
     )

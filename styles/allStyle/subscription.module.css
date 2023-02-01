@@ -13,14 +13,15 @@
     height: auto;
     width: 80%;
     display: flex;
-    flex-wrap: wrap !important;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border-bottom: 0.0001px solid rgb(185, 185, 185);
     /* background: #c3e1ff; */
     padding: 2rem 0;
-box-sizing: border-box;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
 }
 
 .crack__main__div__container button {
@@ -51,4 +52,23 @@ box-sizing: border-box;
     line-height: 32px;
     letter-spacing: -0.005em;
     color: #3C4852;
+}
+
+@media (max-width:620px) {
+    .crack__main__div__container {
+        width: 90%;
+        padding: 1rem 0;
+    }
+
+    .freeTest__text {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .crack__main__div__container button {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
