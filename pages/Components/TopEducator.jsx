@@ -6,6 +6,7 @@ import { SiBitcoinsv } from 'react-icons/si';
 
 import topEducator from '../api/topEducator'
 import Image from 'next/image';
+import Referal from './Referal';
 const TopEducator = () => {
     const [educator, settopEducator] = useState(topEducator);
 
@@ -30,11 +31,11 @@ const TopEducator = () => {
                             educator.map((val, i) => {
                                 return (
                                     <>
-                                        <div className={styles.educator__card}>
+                                        <div className={styles.educator__card} key={i}>
                                             <div className={styles.educator__card__image}>
                                                 <Image
-                                                    src="/images/E1.webp"
-                                                    alt=""
+                                                    src={val.img}
+                                                    alt={val.name}
                                                     height={170}
                                                     width={130}
                                                 />
@@ -45,13 +46,13 @@ const TopEducator = () => {
 
                                             </div>
                                             <div className={styles.educator__card__info}>
-                                                <span>Piyush Maheswari</span>
-                                                <p>A mentor to AIR 1, four 100 percentilers in JEE Mains and a guiding light to 10k+ IITians.</p>
+                                                <span>{val.name}</span>
+                                                <p>{val.des}</p>
                                                 <div class="d-flex gap-3">
-                                                    <div><span>142M</span><br /><p>Watch mins</p></div>
-                                                    <div><span>75K</span><br /><p>Followers</p></div>
+                                                    <div><span>{val.mints}</span><br /><p>Watch mins</p></div>
+                                                    <div><span>{val.followers}</span><br /><p>Followers</p></div>
                                                 </div>
-                                                <div style={{ fontSize: "14px", fontWeight: "600",marginBottom:"0.5rem"}} className={styles.educator__View__Profile}>View Profile <IoIosArrowForward className={styles.View__Profile__aro} style={{ fontSize: "20px" }} /></div>
+                                                <div style={{ fontSize: "14px", fontWeight: "600", marginBottom: "0.5rem" }} className={styles.educator__View__Profile}>View Profile <IoIosArrowForward className={styles.View__Profile__aro} style={{ fontSize: "20px" }} /></div>
                                             </div>
                                         </div>
                                     </>
@@ -61,6 +62,8 @@ const TopEducator = () => {
 
 
                     </div>
+                    <button>Veiw all educator</button>
+                {/* <Referal/> */}
 
                 </div>
             </div>

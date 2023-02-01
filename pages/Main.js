@@ -7,6 +7,9 @@ import WatchFree from './Components/WatchFree'
 import MostEngaging from './Components/MostEngaging'
 import Classes from './Components/Classes'
 import TopEducator from './Components/TopEducator'
+import Referal from './Components/Referal'
+import Subscription from './Components/Subscription'
+import Batch from './Components/Batch'
 
 const Main = () => {
     return (
@@ -19,6 +22,10 @@ const Main = () => {
             <MostEngaging />
             <Classes />
             <TopEducator />
+            <Referal />
+            <Subscription />
+            <Batch />
+
         </div>
     )
 }
