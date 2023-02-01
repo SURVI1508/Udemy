@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { BiWifi2 } from 'react-icons/bi';
 import { FaPlay } from 'react-icons/fa';
 
-import {playList} from './playListJson'
+import {playList} from './PlayListJson'
 import Image from 'next/image';
 const MostEngaging = () => {
     const [play, setPlay] = useState(playList);
