@@ -1,4 +1,4 @@
-const playList = [
+export const playList = [
     {
         id: "1",
         img: "/images/M1.webp",
@@ -82,4 +82,4 @@ const playList = [
     },
 
 ]
-export default playList
+// export default playList

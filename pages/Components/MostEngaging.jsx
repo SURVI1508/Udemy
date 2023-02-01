@@ -3,11 +3,11 @@ import { useState } from 'react'
 import { BiWifi2 } from 'react-icons/bi';
 import { FaPlay } from 'react-icons/fa';
 
-import playList from './playListJson'
+import {playList} from './playListJson'
 import Image from 'next/image';
 const MostEngaging = () => {
     const [play, setPlay] = useState(playList);
-    console.log(play)
+    // console.log(play)
     return (
         <div className={styles.crack__main__div}>
             <div className={styles.crack__main__div__container}>
@@ -56,7 +56,6 @@ const MostEngaging = () => {
                             )
                         })
                     }
-
 
                 </div>
             </div>
