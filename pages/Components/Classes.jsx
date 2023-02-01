@@ -2,7 +2,7 @@ import styles from '../../styles/allStyle/classes.module.css'
 import { useState } from 'react'
 import { BiWifi2 } from 'react-icons/bi';
 import { FaPlay } from 'react-icons/fa';
-import {playList} from './PlayListJson'
+import {playList} from './playListJson'
 import Image from 'next/image';
 const Classes = () => {
     const [play, setPlay] = useState(playList);
