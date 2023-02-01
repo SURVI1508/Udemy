@@ -1,0 +1,131 @@
+.crack__main__div {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f7f9fb;
+    /* background: #cae5ff; */
+
+    padding: 2rem 0;
+}
+
+.crack__main__div__container {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.0001px solid rgb(185, 185, 185);
+}
+
+
+.freeTest__text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    color: #3C4852;
+}
+
+.freeTest__text p {
+    color: #3C4852;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.freeTest__image {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.freeTest__image__avtart {
+    background: rgb(22, 181, 255);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2.5px solid rgb(255, 255, 204);
+}
+
+.freeTest__text button {
+    padding: 14px 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgb(60, 72, 82);
+    border: 1px solid rgb(60, 72, 82);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+
+.crack__main__div__vdo_container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid rebeccapurple; */
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+.crack__main__div__vdo__play {
+    height: 100%;
+    width: auto;
+    /* border: 2px solid red; */
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.crack__main__div__vdo__info {
+    height: 316px;
+    width: 54%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+
+}
+
+.crack__main__div__vdo__chapter__name h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    color: #3C4852;
+}
+.crack__main__next__btn__btn{
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3C4852;
+    line-height: normal;
+    font-weight: 700;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+.crack__main__next__btn__btn:hover{
+    transition: 0.3s;
+    background:none;
+
+}

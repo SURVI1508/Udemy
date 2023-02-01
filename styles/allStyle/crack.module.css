@@ -1,0 +1,87 @@
+.crack__main__div {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(218, 246, 255);
+    padding: 2.5rem 0;
+}
+
+.crack__main__div__container {
+    width: 80%;
+    /* border: 2px solid rgb(60, 255, 0); */
+}
+
+.crack__main__div__container__heading {
+    width: 100%;
+}
+
+.crack__main__div__container__heading h1 {
+    font-weight: 700;
+}
+
+.crack__main__div__container__heading p {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.crack__main__div__container__feature {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+
+.crack__main__div__container__feature__card {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.crack__main__div__container__feature__card p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7A8B94;
+}
+
+.crack__main__div__container__feature__icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 0.7rem;
+    background: rgb(240, 223, 251);
+    color: rgb(198, 119, 251);
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crack__feature__btns button {
+    margin-top: 2rem;
+}
+
+.crack__feature__btns button {
+    border: none;
+    outline: none;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #08BD80;
+    border: 1px solid #08BD80;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+@media (max-width:620px) {
+    .crack__feature__btns button {
+        width: 100%;
+    }
+}
