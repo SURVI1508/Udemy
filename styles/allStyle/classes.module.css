@@ -195,7 +195,7 @@
     }
 
     .crack__main__div__vdo__playList {
-        min-width: 97%;
+        min-width: 75%;
         margin: 0 0.5rem;
     }
 
@@ -213,6 +213,9 @@
     .freeTest__sub__btns {
         overflow-y: scroll;
     }
+    .freeTest__text {
+        padding-left: 1.1rem;
+    }
 }
 
 @media (max-width:620px) {
@@ -222,10 +225,14 @@
     }
 
     .crack__main__div__container {
-        width: 90%;
+        width: 100%;
     }
 
     .freeTest__sub__btns {
         /* gap: 0.5rem; */
     }
+.crack__main__div__container button {
+    width: 90%;
+    margin:  1rem;
+}
 }
