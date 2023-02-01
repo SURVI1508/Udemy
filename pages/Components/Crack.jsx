@@ -16,7 +16,7 @@ const Crack = () => {
                         <div className={styles.crack__main__div__container__feature__icon}>
                             <h3><BsFillBookmarkCheckFill /></h3>
                         </div>
-                        <h4 style={{ color: "#3C4852", fontWeight: "700" }}>India's top <br /> educators</h4>
+                        <h4 style={{ color: "#3C4852", fontWeight: "700" }}>Indias top <br /> educators</h4>
                         <p>Learn with the best educators for <br /> online IIT JEE preparation</p>
                     </div>
 
