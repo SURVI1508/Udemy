@@ -8,15 +8,23 @@ const WatchFree = () => {
         <div className={styles.crack__main__div}>
             <div className={styles.crack__main__div__container}>
                 <div className={styles.freeTest__text}>
-                    <h3>Watch free online <br /> classes</h3>
-                    <div className={styles.freeTest__text__time} class="d-flex gap-3 align-item-center">
+                    <h3>Watch free online classes</h3>
+                    <div className={styles.freeTest__text__time} class="d-flex gap-2 align-item-center">
                         <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Chat live with educators</span>
                         <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Attempt interactive polls</span>
                         <span> <MdVerified style={{ color: "green", marginRight: "0.4rem" }} />Get your doubts cleared</span>
                     </div>
                 </div>
                 <div className={styles.freeTest__image} >
-                    <div className={styles.freeTest__image__avtart}></div>
+                    <div className={styles.freeTest__image__avtart}>
+                    <Image
+                    className={styles.crack__main__div__vdo__play__image}
+                        src="/images/M2.webp"
+                        alt=""
+                        width={55}
+                        height={55}
+                    />
+                    </div>
                     <h5>116.5K learners</h5>
                     <p>watched a class today</p>
                 </div>
@@ -26,6 +34,7 @@ const WatchFree = () => {
             <div className={styles.crack__main__div__vdo_container}>
                 <div className={styles.crack__main__div__vdo__play}>
                     <Image
+                    className={styles.crack__main__div__vdo__play__image}
                         src="/images/M2.webp"
                         alt=""
                         width={561}

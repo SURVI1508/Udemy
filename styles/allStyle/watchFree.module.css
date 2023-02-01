@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 0.0001px solid rgb(185, 185, 185);
+
 }
 
 
@@ -48,11 +49,16 @@
 }
 
 .freeTest__image__avtart {
-    background: rgb(22, 181, 255);
+    /* background: rgb(22, 181, 255); */
     height: 55px;
     width: 55px;
     border-radius: 50%;
     border: 2.5px solid rgb(255, 255, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .freeTest__text button {
@@ -72,7 +78,7 @@
 .crack__main__div__vdo_container {
     width: 80%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -103,14 +109,15 @@
 
 }
 
-.crack__main__div__vdo__chapter__name h3{
+.crack__main__div__vdo__chapter__name h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -0.005em;
     color: #3C4852;
 }
-.crack__main__next__btn__btn{
+
+.crack__main__next__btn__btn {
     border-radius: 8px;
     padding: 6px;
     display: flex;
@@ -124,8 +131,48 @@
     box-sizing: border-box;
     background: #FFFFFF;
 }
-.crack__main__next__btn__btn:hover{
+
+.crack__main__next__btn__btn:hover {
     transition: 0.3s;
-    background:none;
+    background: none;
+
+}
+
+
+@media (max-width:820px) {
+    .crack__main__div__vdo_container {
+        flex-wrap: wrap;
+    }
+
+    .crack__main__div__vdo__info {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .crack__main__div__vdo__play__image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:620px) {
+    .freeTest__text__time {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .freeTest__image {
+        display: none;
+    }
+    
+.crack__main__div__container {
+    
+    padding-bottom: 0.7rem;
+
+}
 
 }
