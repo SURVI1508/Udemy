@@ -78,4 +78,10 @@
         height: auto;
         padding: 1rem;
     }
+.crack__main__div__container {
+    width: 90%;
+}
+.crack__main__div__container h3{
+    width: 100%;
+}
 }

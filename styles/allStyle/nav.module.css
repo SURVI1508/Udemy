@@ -162,18 +162,15 @@
 
 @media (max-width:620px) {
 
-.nav__div__top__container {
-padding: 1.5rem 0.5rem;
+    .nav__div__top__container {
+        padding: 1.5rem 0;
 
     }
-
-
-
     .nav__btns button {
         height: 34px;
         width: auto;
         font-weight: 400;
-        padding: 0 0.7rem;
+        padding: 0 0.5rem;
         /* display: flex; */
         /* flex-direction: row; */
         /* align-items: center; */

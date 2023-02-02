@@ -88,7 +88,13 @@
 }
 
 @media (max-width:620px) {
-.footer__container__right {
-    height: auto;
+    .footer__container__right {
+        height: auto;
+    }
+.footer__container__left {
+    width: 90%;
+}
+.crack__main__div__container {
+    width: 90%;
 }
 }

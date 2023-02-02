@@ -16,7 +16,7 @@ const Footer = () => {
                         />
                         <p class="mt-5">Unacademy is democratising education, making it accessible to all. Join the revolution, learn on Indias largest learning platform.</p>
                     </div>
-                    <div class="d-flex gap-3">
+                    <div class="d-flex gap-2">
 
                         <Image
                             src="/images/playstore.png"
