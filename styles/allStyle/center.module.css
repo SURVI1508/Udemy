@@ -25,6 +25,7 @@
     padding-bottom: 0.5rem;
     box-sizing: border-box;
 }
+
 .crack__main__div__container button {
     padding: 14px 32px;
     box-sizing: border-box;
@@ -49,7 +50,7 @@
     gap: 2rem;
 }
 
-.our__centers{
+.our__centers {
     width: 160px;
     display: flex;
     flex-direction: row;
@@ -60,7 +61,8 @@
     border-radius: 8px;
     cursor: pointer;
 }
-.our__centers__location{
+
+.our__centers__location {
     display: flex;
     flex-direction: column;
 }
@@ -74,6 +76,7 @@
     letter-spacing: -0.005em;
     color: #3C4852;
 }
+
 .freeTest__text h4 {
     font-size: 20px;
     font-weight: 700;
@@ -87,4 +90,19 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+}
+
+@media (max-width:620px) {
+    .crack__main__div__centers___container {
+        flex-direction: column;
+    }
+
+    .our__centers {
+        width: 90%;
+        gap: 1rem;
+    }
+    .crack__main__div__container button {
+        width: 90%;
+        margin: 2rem auto;
+    }
 }
