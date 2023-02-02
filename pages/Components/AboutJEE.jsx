@@ -25,6 +25,7 @@ const AboutJEE = () => {
                     </div>
                     <div>
                         <Image
+                        className={styles.JEE__question__image}
                             src="/images/exam.svg"
                             alt=""
                             height={120}
@@ -33,7 +34,6 @@ const AboutJEE = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

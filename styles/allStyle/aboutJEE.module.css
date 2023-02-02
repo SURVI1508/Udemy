@@ -51,12 +51,22 @@
 
 
 
-
-
 .freeTest__text h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -0.005em;
     color: #3C4852;
+}
+
+@media (max-width:620px) {
+    .JEE__question__container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .JEE__question__image {
+        margin-left: 75%;
+        margin-top: 2rem;
+    }
 }

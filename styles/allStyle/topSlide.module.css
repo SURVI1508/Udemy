@@ -1,0 +1,35 @@
+.crack__main__div {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    /* background: #cae5ff; */
+    padding-top: 1rem;
+}
+
+.crack__main__div__container {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+@media (max-width:1200px) {
+    .crack__main__div__container {
+        width: 90%;
+    }
+
+    .slide__img__Image {
+        max-width:100%;
+        height: auto;
+    }
+
+}
